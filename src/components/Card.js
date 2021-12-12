@@ -1,5 +1,4 @@
 import React from 'react'
-import glamorous from 'glamorous'
 
 const Card = ({ name, email, id }) => {
   return (

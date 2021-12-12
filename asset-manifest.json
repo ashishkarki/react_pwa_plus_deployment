@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/react_pwa_plus_deployment/static/css/main.bc892aea.chunk.css",
-    "main.js": "/react_pwa_plus_deployment/static/js/main.fff19d24.chunk.js",
-    "main.js.map": "/react_pwa_plus_deployment/static/js/main.fff19d24.chunk.js.map",
+    "main.js": "/react_pwa_plus_deployment/static/js/main.56004079.chunk.js",
+    "main.js.map": "/react_pwa_plus_deployment/static/js/main.56004079.chunk.js.map",
     "runtime-main.js": "/react_pwa_plus_deployment/static/js/runtime-main.ce3c1af5.js",
     "runtime-main.js.map": "/react_pwa_plus_deployment/static/js/runtime-main.ce3c1af5.js.map",
     "static/css/2.3b2cfc2e.chunk.css": "/react_pwa_plus_deployment/static/css/2.3b2cfc2e.chunk.css",
-    "static/js/2.bbd893a5.chunk.js": "/react_pwa_plus_deployment/static/js/2.bbd893a5.chunk.js",
-    "static/js/2.bbd893a5.chunk.js.map": "/react_pwa_plus_deployment/static/js/2.bbd893a5.chunk.js.map",
+    "static/js/2.9f94f4ae.chunk.js": "/react_pwa_plus_deployment/static/js/2.9f94f4ae.chunk.js",
+    "static/js/2.9f94f4ae.chunk.js.map": "/react_pwa_plus_deployment/static/js/2.9f94f4ae.chunk.js.map",
     "static/js/3.ebe430f7.chunk.js": "/react_pwa_plus_deployment/static/js/3.ebe430f7.chunk.js",
     "static/js/3.ebe430f7.chunk.js.map": "/react_pwa_plus_deployment/static/js/3.ebe430f7.chunk.js.map",
     "index.html": "/react_pwa_plus_deployment/index.html",
-    "precache-manifest.68c300c15dd330418467125c0c61ca76.js": "/react_pwa_plus_deployment/precache-manifest.68c300c15dd330418467125c0c61ca76.js",
+    "precache-manifest.379bc7319f36a8d51a2f1a3d65f4be82.js": "/react_pwa_plus_deployment/precache-manifest.379bc7319f36a8d51a2f1a3d65f4be82.js",
     "service-worker.js": "/react_pwa_plus_deployment/service-worker.js",
     "static/css/2.3b2cfc2e.chunk.css.map": "/react_pwa_plus_deployment/static/css/2.3b2cfc2e.chunk.css.map",
     "static/css/main.bc892aea.chunk.css.map": "/react_pwa_plus_deployment/static/css/main.bc892aea.chunk.css.map",
-    "static/js/2.bbd893a5.chunk.js.LICENSE.txt": "/react_pwa_plus_deployment/static/js/2.bbd893a5.chunk.js.LICENSE.txt",
+    "static/js/2.9f94f4ae.chunk.js.LICENSE.txt": "/react_pwa_plus_deployment/static/js/2.9f94f4ae.chunk.js.LICENSE.txt",
     "static/media/App.css": "/react_pwa_plus_deployment/static/media/SEGA.12a3db8b.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.ce3c1af5.js",
     "static/css/2.3b2cfc2e.chunk.css",
-    "static/js/2.bbd893a5.chunk.js",
+    "static/js/2.9f94f4ae.chunk.js",
     "static/css/main.bc892aea.chunk.css",
-    "static/js/main.fff19d24.chunk.js"
+    "static/js/main.56004079.chunk.js"
   ]
 }

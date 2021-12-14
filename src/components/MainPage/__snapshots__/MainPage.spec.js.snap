@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calls onSearchTermChange when input changes 1`] = `
+<div
+  className="tc"
+>
+  <h1
+    className="f1"
+  >
+    RoboFriends
+  </h1>
+  <div
+    className="css-1u4s5v3 pa2"
+  >
+    <input
+      aria-label="Search Robots"
+      className="pa3 ba b--green bg-lightest-blue"
+      onChange={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {
+                "target": Object {
+                  "value": "test",
+                },
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+      placeholder="search robots"
+      type="search"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "border": "5px solid black",
+        "height": "800px",
+        "overflow": "scroll",
+      }
+    }
+  >
+    <div
+      className="css-mnwtuh"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders without crashing 1`] = `
+<div
+  className="tc"
+>
+  <h1
+    className="f1"
+  >
+    RoboFriends
+  </h1>
+  <div
+    className="css-1u4s5v3 pa2"
+  >
+    <input
+      aria-label="Search Robots"
+      className="pa3 ba b--green bg-lightest-blue"
+      onChange={[MockFunction]}
+      placeholder="search robots"
+      type="search"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "border": "5px solid black",
+        "height": "800px",
+        "overflow": "scroll",
+      }
+    }
+  >
+    <div
+      className="css-mnwtuh"
+    />
+  </div>
+</div>
+`;

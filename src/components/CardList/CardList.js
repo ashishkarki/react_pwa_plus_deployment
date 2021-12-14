@@ -1,6 +1,6 @@
 import React from 'react'
 import glamorous from 'glamorous'
-import Card from './Card'
+import Card from '../Card/Card'
 
 const CardListDiv = glamorous.div({
   display: 'flex',

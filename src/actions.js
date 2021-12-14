@@ -1,4 +1,9 @@
-import { SET_SEARCH_TERM } from './constants'
+import {
+  REQUEST_ROBOTS_FAILED,
+  REQUEST_ROBOTS_PENDING,
+  REQUEST_ROBOTS_SUCCESS,
+  SET_SEARCH_TERM,
+} from './constants'
 
 export const setSearchTermAction = (searchTerm) => {
   return {
@@ -10,20 +15,20 @@ export const setSearchTermAction = (searchTerm) => {
 export const requestRobotsAction = () => (dispatch) => {
   console.log('actions.js - requestRobotsAction', dispatch)
   dispatch({
-    type: 'REQUEST_ROBOTS_PENDING',
+    type: REQUEST_ROBOTS_PENDING,
   })
 
-  fetch('https://jsonplaceholder.typicode.com/users')
+  fetch('https://jsonplaceholder.typicod.com/users')
     .then((response) => response.json())
     .then((data) =>
       dispatch({
-        type: 'REQUEST_ROBOTS_SUCCESS',
+        type: REQUEST_ROBOTS_SUCCESS,
         payload: data,
       }),
     )
     .catch((error) =>
       dispatch({
-        type: 'REQUEST_ROBOTS_FAILED',
+        type: REQUEST_ROBOTS_FAILED,
         payload: error,
       }),
     )

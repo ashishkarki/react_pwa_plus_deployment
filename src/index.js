@@ -44,6 +44,6 @@ serviceWorkerRegistration.register()
 reportWebVitals()
 
 // setup the tests
-import { setupTests } from './setupTests'
+// import { setupTests } from './setupTests'
 
-setupTests()
+// setupTests()
